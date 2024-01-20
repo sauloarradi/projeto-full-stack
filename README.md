@@ -1,6 +1,6 @@
 # Projeto Web API para base de dados de Super Heróis
 
-Neste projeto foi criada uma WEB API robusta utilizando C#, .NET 6, Entity Framework Core e SQL Server. Foi explorada a implementação de um CRUD completo, aplicado o padrão Repository para organização do código e otimizar a performance com chamadas assíncronas usando async/await.
+Neste projeto foi criada uma WEB API robusta utilizando **C#, .NET 6, Entity Framework Core e SQL Server**. Foi explorada a implementação de um CRUD completo, aplicado o padrão Repository para organização do código e otimizar a performance com chamadas assíncronas usando async/await.
 
 Com base em conceitos fundamentais necessários para construir uma API poderosa e escalável, foi estabelecida a conexão com o banco de dados, criada as operações de CRUD e separada a camada de acesso a dados do restante da lógica do negócio.
 
