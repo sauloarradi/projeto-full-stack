@@ -5,3 +5,5 @@ Neste projeto foi criada uma WEB API robusta utilizando **C#, .NET 6, Entity Fra
 Com base em conceitos fundamentais necessários para construir uma API poderosa e escalável, foi estabelecida a conexão com o banco de dados, criada as operações de CRUD e separada a camada de acesso a dados do restante da lógica do negócio.
 
 Essa WEB API foi desenvolvida utilizando boas práticas, assim sendo não foi colocado todo raciocínio, toda lógica dentro do controller, que não é o que habitualmente é feito, isso porque é uma má prática a gente ter fat controller. Para isso foram criados serviços que serão responsaveis por se comunicar com o banco, eles irão pegar os dados do banco e o controller basicamente irá consultar o serviço e mostra-lo para o usuário. Esse padrão é chamado de Repository Pattern.
+
+Para criar nossa base de dados foi utilizado o método __Code First__, ou seja, a partir do nosso código foi criado a nossa base de dados.
